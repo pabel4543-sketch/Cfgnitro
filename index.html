@@ -3,101 +3,179 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cfgnitro | Servicios digitales para gamers</title>
-  <meta name="description" content="Cfgnitro ofrece diseños, configuraciones de Discord, banners, miniaturas y servicios digitales para gamers y creadores." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <title>Cfgnitro | Tienda Gamer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-grid"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
   <nav class="navbar">
-    <div class="logo">Cfg<span>nitro</span></div>
+    <a class="brand" href="#">
+      <div class="logo-mark">CFG</div>
+      <div>
+        <strong>Cfgnitro</strong>
+        <span>Gaming Design Store</span>
+      </div>
+    </a>
+
     <div class="nav-links">
       <a href="#servicios">Servicios</a>
-      <a href="#precios">Precios</a>
+      <a href="#clases">Clases</a>
+      <a href="#galeria">Galería</a>
       <a href="#contacto">Contacto</a>
     </div>
   </nav>
 
   <header class="hero">
-    <div class="hero-content">
-      <p class="badge">Servicios digitales para gamers</p>
-      <h1>Mejora tu perfil, servidor o marca gaming con <span>Cfgnitro</span></h1>
-      <p class="subtitle">Diseños, banners, miniaturas, configuración de servidores de Discord y packs digitales personalizados.</p>
-      <div class="buttons">
-        <a class="btn primary" href="#precios">Ver servicios</a>
-        <a class="btn secondary" href="#contacto">Pedir presupuesto</a>
+    <div class="hero-left">
+      <p class="eyebrow">Diseño gamer • Discord • Branding</p>
+      <h1>Cfgnitro</h1>
+      <p class="hero-text">
+        Diseños, servidores y contenido visual con estética gamer profesional.
+        Únete a nuestro Discord para consultar precios y pedir presupuesto.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://discord.gg/RprBkzNukz" target="_blank">💬 Unirme al Discord</a>
+        <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
       </div>
+
+      <div class="stats">
+        <div>
+          <strong>+120</strong>
+          <span>miembros Discord</span>
+        </div>
+        <div>
+          <strong>24/7</strong>
+          <span>consultas abiertas</span>
+        </div>
+        <div>
+          <strong>30€</strong>
+          <span>clases / mes</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="card-top">
+        <span class="status"></span>
+        Online Store
+      </div>
+      <div class="big-logo">CFG</div>
+      <h2>Nitro Style</h2>
+      <p>Diseño neón para gamers, creadores y comunidades.</p>
+      <a class="btn btn-primary full" href="https://discord.gg/RprBkzNukz" target="_blank">Consultar precios</a>
     </div>
   </header>
 
   <main>
     <section id="servicios" class="section">
-      <h2>Servicios</h2>
-      <p class="section-text">Todo enfocado a creadores, jugadores, streamers y comunidades.</p>
-      <div class="cards">
-        <article class="card">
-          <h3>Discord Pro</h3>
-          <p>Configuración de canales, roles, bots, normas, bienvenida y estética completa.</p>
+      <div class="section-title">
+        <p>Catálogo</p>
+        <h2>Servicios digitales</h2>
+      </div>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="icon">🎨</div>
+          <h3>Diseño gráfico gamer</h3>
+          <p>Logos, banners, miniaturas, avatares y diseños para redes.</p>
+          <a href="https://discord.gg/RprBkzNukz" target="_blank">Consultar precio</a>
         </article>
-        <article class="card">
-          <h3>Diseño Gaming</h3>
-          <p>Banners, logos sencillos, fotos de perfil, miniaturas y portadas para redes.</p>
+
+        <article class="product-card">
+          <div class="icon">🛡️</div>
+          <h3>Servidores Discord</h3>
+          <p>Canales, roles, estética, normas, categorías y organización.</p>
+          <a href="https://discord.gg/RprBkzNukz" target="_blank">Consultar precio</a>
         </article>
-        <article class="card">
-          <h3>Packs para creadores</h3>
-          <p>Plantillas, ideas de contenido, textos para posts y organización de publicaciones.</p>
+
+        <article class="product-card">
+          <div class="icon">⚡</div>
+          <h3>Contenido para redes</h3>
+          <p>Posts, portadas, packs visuales y material para crecer online.</p>
+          <a href="https://discord.gg/RprBkzNukz" target="_blank">Consultar precio</a>
         </article>
       </div>
     </section>
 
-    <section id="precios" class="section dark">
-      <h2>Precios</h2>
-      <div class="pricing">
-        <div class="price-card">
-          <h3>Básico</h3>
-          <p class="price">5€</p>
-          <p>Banner o diseño simple.</p>
-          <a href="#contacto">Pedir</a>
-        </div>
-        <div class="price-card featured">
-          <h3>Discord</h3>
-          <p class="price">15€</p>
-          <p>Servidor configurado con canales, roles y bots básicos.</p>
-          <a href="#contacto">Pedir</a>
-        </div>
-        <div class="price-card">
-          <h3>Pack Pro</h3>
-          <p class="price">25€</p>
-          <p>Diseños + servidor Discord + asesoría básica de marca.</p>
-          <a href="#contacto">Pedir</a>
+    <section id="clases" class="section split">
+      <div>
+        <p class="eyebrow">Formación</p>
+        <h2>Clases de diseño gráfico</h2>
+        <p>
+          Aprende a crear logos, banners, miniaturas y diseños con estética gamer desde cero.
+        </p>
+      </div>
+      <div class="price-box">
+        <span>Precio mensual</span>
+        <strong>30€</strong>
+        <p>Pago por PayPal</p>
+        <a class="btn btn-primary full" href="https://discord.gg/RprBkzNukz" target="_blank">Reservar plaza</a>
+      </div>
+    </section>
+
+    <section class="section payment">
+      <div class="section-title">
+        <p>Pagos</p>
+        <h2>PayPal oficial</h2>
+      </div>
+
+      <div class="payment-card">
+        <div class="paypal-icon">P</div>
+        <div>
+          <p>Todos los pagos se realizan por PayPal:</p>
+          <strong>alvaroalcoya9@gmail.com</strong>
         </div>
       </div>
     </section>
 
-    <section class="section trust">
-      <h2>¿Por qué Cfgnitro?</h2>
-      <div class="trust-grid">
-        <div><strong>Rápido</strong><span>Entrega clara y organizada.</span></div>
-        <div><strong>Personalizado</strong><span>Adaptado a tu estilo.</span></div>
-        <div><strong>Legal</strong><span>Solo servicios y contenido propio.</span></div>
+    <section id="galeria" class="section">
+      <div class="section-title">
+        <p>Portfolio</p>
+        <h2>Galería de trabajos</h2>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-item">Banner Gamer</div>
+        <div class="gallery-item">Logo Neón</div>
+        <div class="gallery-item">Miniatura YouTube</div>
+        <div class="gallery-item">Servidor Discord</div>
+        <div class="gallery-item">Avatar Gaming</div>
+        <div class="gallery-item">Pack Redes</div>
       </div>
     </section>
 
     <section id="contacto" class="section contact">
-      <h2>Contacto</h2>
-      <p>Escríbeme para pedir tu diseño o servidor personalizado.</p>
-      <div class="contact-box">
-        <p><strong>Discord:</strong> tu_usuario#0000</p>
-        <p><strong>Email:</strong> tuemail@gmail.com</p>
-        <p><strong>Instagram/TikTok:</strong> @cfgnitro</p>
+      <div class="section-title">
+        <p>Contacto</p>
+        <h2>Consulta precios</h2>
       </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Tu nombre" />
+        <input type="email" placeholder="Tu email" />
+        <select>
+          <option>Diseño gráfico</option>
+          <option>Clases de diseño gráfico</option>
+          <option>Servidor Discord</option>
+          <option>Otro servicio</option>
+        </select>
+        <textarea placeholder="Cuéntanos qué necesitas"></textarea>
+        <a class="btn btn-primary full" href="https://discord.gg/RprBkzNukz" target="_blank">Enviar consulta por Discord</a>
+      </form>
+
+      <p class="note">
+        El formulario es visual. Para recibir mensajes reales, usa el botón de Discord.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Cfgnitro. Servicios digitales para gamers.</p>
+    <p>© 2026 Cfgnitro. Diseño gamer y servicios digitales.</p>
+    <a href="https://discord.gg/RprBkzNukz" target="_blank">Discord</a>
   </footer>
 </body>
 </html>
